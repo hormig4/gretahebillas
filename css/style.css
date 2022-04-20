@@ -1,0 +1,300 @@
+body{
+    color: #555;
+}
+
+header{
+    height: 70px;
+    background: #d5eafd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    
+    
+}
+
+
+
+
+
+
+header  a h1{
+    float: left;
+    text-align: left;
+    padding: auto;
+    margin: 20px;
+    font-family: 'Trebuchet MS', cursive;
+    font-weight: 100;
+    letter-spacing: 5px;
+    color: lightcoral;
+    
+    
+}
+
+@media only screen and (max-width: 480px){
+    header{
+        height: 60px;
+    background: #d5eafd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .botones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+
+
+    
+
+.botones{
+    padding: 20px;
+    opacity: 80%;
+    margin-top: 5px ;
+    
+
+}
+
+.botones .btn{
+    background: lightcoral;
+    color: white;
+    border: solid 1px transparent;
+    position: static;
+    padding: 3px;
+    
+    
+
+}
+
+
+@media only screen and (max-width: 768px){
+    .botones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .botones .btn{
+        background: lightcoral;
+        color: white;
+        border: solid 1px transparent;
+        position: static;
+        padding: 2px;
+        margin: 4px;
+        
+        
+    
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .botones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .botones .btn{
+        background: lightcoral;
+        color: white;
+        border: solid 1px transparent;
+        position: static;
+        padding: 2px;
+        margin: 4px;
+        font-size: 9px;
+        
+        
+    
+    }
+}
+
+
+
+
+@media only screen and (max-width: 375px){
+    .botones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .botones .btn{
+        background: lightcoral;
+        color: white;
+        border: solid 1px transparent;
+        position: static;
+        padding: 2px;
+        margin: 4px;
+        
+        
+    
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .botones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .botones .btn{
+        background: lightcoral;
+        color: white;
+        border: solid 1px transparent;
+        position: static;
+        padding: 2px;
+        margin: 4px;
+        font-size: 12px;
+        
+    
+    }
+}
+
+
+
+.botones .btn a{
+    text-decoration-line: inherit;
+    font-family: Arial;
+}
+
+
+
+nav ul{
+    float:right;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a{
+    font-family: 'AlexBrush-Regular';
+}
+
+nav ul li{
+    display: inline;
+    
+   
+    
+
+    
+}
+
+nav ul li a{
+    padding: 10px;
+    color:#A2D2FF;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.splash .btn{
+    margin-left: auto;
+    padding-left: auto;
+    display: inline-block;
+    background:#A2D2FF;
+    color: white;
+    
+}
+
+
+
+
+.splash{
+   width: 100%;
+   height: 100vh;
+   background:url(../img/backgroundgreta.jpg) center center fixed;
+   background-size: cover;
+}
+
+.subtitulo{
+    font-size: 18px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+
+.espacios{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content{
+    padding: 10px;
+}
+.sectioncolor{
+    background: #fafafa;
+}
+
+
+
+h1{
+    font-family: 'fonts/AlexBrush-Regular.ttf' cursive;
+}
+
+.card{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14)!important;
+    margin: 10px;
+}
+
+.card .btn {
+    float: center;
+}
+
+footer{
+height: 115px;
+background: lightcoral;
+display: flex;
+flex-direction: column;
+justify-content: space-between  ;
+align-items: center;
+}
+
+
+
+.instagram{
+    height: 45px;
+    width: 45px;
+    margin: 15px;
+    opacity: 80%;
+
+    
+}
+
+.facebook{
+    height: 45px;
+    width: 45px;
+    margin:15px;
+    opacity: 80%;
+}
+
+.email{
+    width: 45px;
+    height: 45px;
+    opacity: 80%;
+    margin: 15px;
+}
+
+
+
+
